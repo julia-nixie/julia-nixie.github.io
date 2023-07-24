@@ -1,84 +1,252 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{wang-etal-2023-automated,
+    title = "Automated Metrics for Medical Multi-Document Summarization Disagree with Human Evaluations",
+    author = "Wang, Lucy Lu  and
+      Otmakhova, Yulia  and
+      DeYoung, Jay  and
+      Truong, Thinh Hung  and
+      Kuehl, Bailey  and
+      Bransom, Erin  and
+      Wallace, Byron",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.549",
+    pages = "9871--9889",
+    abstract = "Evaluating multi-document summarization (MDS) quality is difficult. This is especially true in the case of MDS for biomedical literature reviews, where models must synthesize contradicting evidence reported across different documents. Prior work has shown that rather than performing the task, models may exploit shortcuts that are difficult to detect using standard n-gram similarity metrics such as ROUGE. Better automated evaluation metrics are needed, but few resources exist to assess metrics when they are proposed. Therefore, we introduce a dataset of human-assessed summary quality facets and pairwise preferences to encourage and support the development of better automated evaluation methods for literature review MDS. We take advantage of community submissions to the Multi-document Summarization for Literature Review (MSLR) shared task to compile a diverse and representative sample of generated summaries. We analyze how automated summarization evaluation metrics correlate with lexical features of generated summaries, to other automated metrics including several we propose in this work, and to aspects of human-assessed summary quality. We find that not only do automated metrics fail to capture aspects of quality as assessed by humans, in many cases the system rankings produced by these metrics are anti-correlated with rankings according to human annotators.",
+    abbr = {ACL},
+    selected = {true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@Article{info:doi/10.2196/35568,
+author="{\v{S}}uster, Simon
+and Baldwin, Timothy
+and Lau, Jey Han
+and Jimeno Yepes, Antonio
+and Martinez Iraola, David
+and Otmakhova, Yulia
+and Verspoor, Karin",
+title="Automating Quality Assessment of Medical Evidence in Systematic Reviews: Model Development and Validation Study",
+journal="J Med Internet Res",
+year="2023",
+month="Mar",
+day="13",
+volume="25",
+pages="e35568",
+keywords="critical appraisal; evidence synthesis; systematic reviews; bias detection; automated quality assessment",
+issn="1438-8871",
+doi="10.2196/35568",
+url="https://www.jmir.org/2023/1/e35568",
+url="https://doi.org/10.2196/35568",
+url="http://www.ncbi.nlm.nih.gov/pubmed/36722350"
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{otmakhova-etal-2022-m3,
+    title = "{M}3: Multi-level dataset for Multi-document summarisation of Medical studies",
+    author = "Otmakhova, Yulia  and
+      Verspoor, Karin  and
+      Baldwin, Timothy  and
+      Jimeno Yepes, Antonio  and
+      Lau, Jey Han",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.286",
+    pages = "3887--3901",
+    abstract = "We present M3 (Multi-level dataset for Multi-document summarisation of Medical studies), a benchmark dataset for evaluating the quality of summarisation systems in the biomedical domain. The dataset contains sets of multiple input documents and target summaries of three levels of complexity: documents, sentences, and propositions. The dataset also includes several levels of annotation, including biomedical entities, direction, and strength of relations between them, and the discourse relationships between the input documents ({``}contradiction{''} or {``}agreement{''}). We showcase usage scenarios of the dataset by testing 10 generic and domain-specific summarisation models in a zero-shot setting, and introduce a probing task based on counterfactuals to test if models are aware of the direction and strength of the conclusions generated from input studies.",
+    abbr = {EMNLP},
+    selected = {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{truong-etal-2022-another,
+    title = "Not another Negation Benchmark: The {N}a{N}-{NLI} Test Suite for Sub-clausal Negation",
+    author = "Truong, Thinh Hung  and
+      Otmakhova, Yulia  and
+      Baldwin, Timothy  and
+      Cohn, Trevor  and
+      Lau, Jey Han  and
+      Verspoor, Karin",
+    booktitle = "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = nov,
+    year = "2022",
+    address = "Online only",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.aacl-main.65",
+    pages = "883--894",
+    abstract = "Negation is poorly captured by current language models, although the extent of this problem is not widely understood. We introduce a natural language inference (NLI) test suite to enable probing the capabilities of NLP methods, with the aim of understanding sub-clausal negation. The test suite contains premise{--}hypothesis pairs where the premise contains sub-clausal negation and the hypothesis is constructed by making minimal modifications to the premise in order to reflect different possible interpretations. Aside from adopting standard NLI labels, our test suite is systematically constructed under a rigorous linguistic framework. It includes annotation of negation types and constructions grounded in linguistic theory, as well as the operations used to construct hypotheses. This facilitates fine-grained analysis of model performance. We conduct experiments using pre-trained language models to demonstrate that our test suite is more challenging than existing benchmarks focused on negation, and show how our annotation supports a deeper understanding of the current NLI capabilities in terms of negation and quantification.",
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{otmakhova-etal-2022-led,
+    title = "{LED} down the rabbit hole: exploring the potential of global attention for biomedical multi-document summarisation",
+    author = "Otmakhova, Yulia  and
+      Truong, Thinh Hung  and
+      Baldwin, Timothy  and
+      Cohn, Trevor  and
+      Verspoor, Karin  and
+      Lau, Jey Han",
+    booktitle = "Proceedings of the Third Workshop on Scholarly Document Processing",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.sdp-1.21",
+    pages = "181--187",
+    abstract = "In this paper we report the experiments performed for the submission to the Multidocument summarisation for Literature Review (MSLR) Shared Task. In particular, we adopt Primera model to the biomedical domain by placing global attention on important biomedical entities in several ways. We analyse the outputs of 23 resulting models and report some patterns related to the presence of additional global attention, number of training steps and the inputs configuration.",
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{10.1093/database/baac069,
+    author = {Chen, Qingyu and Allot, Alexis and Leaman, Robert and Islamaj, Rezarta and Du, Jingcheng and Fang, Li and Wang, Kai and Xu, Shuo and Zhang, Yuefu and Bagherzadeh, Parsa and Bergler, Sabine and Bhatnagar, Aakash and Bhavsar, Nidhir and Chang, Yung-Chun and Lin, Sheng-Jie and Tang, Wentai and Zhang, Hongtong and Tavchioski, Ilija and Pollak, Senja and Tian, Shubo and Zhang, Jinfeng and Otmakhova, Yulia and Yepes, Antonio Jimeno and Dong, Hang and Wu, Honghan and Dufour, Richard and Labrak, Yanis and Chatterjee, Niladri and Tandon, Kushagri and Laleye, Fréjus A A and Rakotoson, Loïc and Chersoni, Emmanuele and Gu, Jinghang and Friedrich, Annemarie and Pujari, Subhash Chandra and Chizhikova, Mariia and Sivadasan, Naveen and VG, Saipradeep and Lu, Zhiyong},
+    title = "{Multi-label classification for biomedical literature: an overview of the BioCreative VII LitCovid Track for COVID-19 literature topic annotations}",
+    journal = {Database},
+    volume = {2022},
+    pages = {baac069},
+    year = {2022},
+    month = {08},
+    abstract = "{The coronavirus disease 2019 (COVID-19) pandemic has been severely impacting global society since December 2019. The related findings such as vaccine and drug development have been reported in biomedical literature—at a rate of about 10 000 articles on COVID-19 per month. Such rapid growth significantly challenges manual curation and interpretation. For instance, LitCovid is a literature database of COVID-19-related articles in PubMed, which has accumulated more than 200 000 articles with millions of accesses each month by users worldwide. One primary curation task is to assign up to eight topics (e.g. Diagnosis and Treatment) to the articles in LitCovid. The annotated topics have been widely used for navigating the COVID literature, rapidly locating articles of interest and other downstream studies. However, annotating the topics has been the bottleneck of manual curation. Despite the continuing advances in biomedical text-mining methods, few have been dedicated to topic annotations in COVID-19 literature. To close the gap, we organized the BioCreative LitCovid track to call for a community effort to tackle automated topic annotation for COVID-19 literature. The BioCreative LitCovid dataset—consisting of over 30 000 articles with manually reviewed topics—was created for training and testing. It is one of the largest multi-label classification datasets in biomedical scientific literature. Nineteen teams worldwide participated and made 80 submissions in total. Most teams used hybrid systems based on transformers. The highest performing submissions achieved 0.8875, 0.9181 and 0.9394 for macro-F1-score, micro-F1-score and instance-based F1-score, respectively. Notably, these scores are substantially higher (e.g. 12\\%, higher for macro F1-score) than the corresponding scores of the state-of-art multi-label classification method. The level of participation and results demonstrate a successful track and help close the gap between dataset curation and method development. The dataset is publicly available via https://ftp.ncbi.nlm.nih.gov/pub/lu/LitCovid/biocreative/ for benchmarking and further development.Database URLhttps://ftp.ncbi.nlm.nih.gov/pub/lu/LitCovid/biocreative/}",
+    issn = {1758-0463},
+    doi = {10.1093/database/baac069},
+    url = {https://doi.org/10.1093/database/baac069},
+    eprint = {https://academic.oup.com/database/article-pdf/doi/10.1093/database/baac069/45629681/baac069.pdf},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{otmakhova-etal-2022-cross,
+    title = "Cross-linguistic Comparison of Linguistic Feature Encoding in {BERT} Models for Typologically Different Languages",
+    author = "Otmakhova, Yulia  and
+      Verspoor, Karin  and
+      Lau, Jey Han",
+    booktitle = "Proceedings of the 4th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
+    month = jul,
+    year = "2022",
+    address = "Seattle, Washington",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.sigtyp-1.4",
+    doi = "10.18653/v1/2022.sigtyp-1.4",
+    pages = "27--35",
+    abstract = "Though recently there have been an increased interest in how pre-trained language models encode different linguistic features, there is still a lack of systematic comparison between languages with different morphology and syntax. In this paper, using BERT as an example of a pre-trained model, we compare how three typologically different languages (English, Korean, and Russian) encode morphology and syntax features across different layers. In particular, we contrast languages which differ in a particular aspect, such as flexibility of word order, head directionality, morphological type, presence of grammatical gender, and morphological richness, across four different tasks.",
+}
+
+@inproceedings{otmakhova-etal-2022-patient,
+    title = "The patient is more dead than alive: exploring the current state of the multi-document summarisation of the biomedical literature",
+    author = "Otmakhova, Yulia  and
+      Verspoor, Karin  and
+      Baldwin, Timothy  and
+      Lau, Jey Han",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.350",
+    doi = "10.18653/v1/2022.acl-long.350",
+    pages = "5098--5111",
+    abstract = "Although multi-document summarisation (MDS) of the biomedical literature is a highly valuable task that has recently attracted substantial interest, evaluation of the quality of biomedical summaries lacks consistency and transparency. In this paper, we examine the summaries generated by two current models in order to understand the deficiencies of existing evaluation approaches in the context of the challenges that arise in the MDS task. Based on this analysis, we propose a new approach to human evaluation and identify several challenges that must be overcome to develop effective biomedical MDS systems.",
+    abbr = {ACL},
+    selected = {true}
+}
+
+@misc{truong2022ittc,
+      title={ITTC @ TREC 2021 Clinical Trials Track}, 
+      author={Thinh Hung Truong and Yulia Otmakhova and Rahmad Mahendra and Timothy Baldwin and Jey Han Lau and Trevor Cohn and Lawrence Cavedon and Damiano Spina and Karin Verspoor},
+      year={2022},
+      eprint={2202.07858},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{šuster2021impact,
+      title={Impact of detecting clinical trial elements in exploration of COVID-19 literature}, 
+      author={Simon Šuster and Karin Verspoor and Timothy Baldwin and Jey Han Lau and Antonio Jimeno Yepes and David Martinez and Yulia Otmakhova},
+      year={2021},
+      eprint={2105.12261},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@inproceedings{otmakhova2021team,
+  title={Team ITTC at BioCreative VII LitCovid Track 5: combining pretrained and bag-of-words models},
+  author={Otmakhova, Yulia and Yepes, Antonio Jimeno},
+  booktitle={Proceedings of the seventh BioCreative challenge evaluation workshop},
+  year={2021}
+}
+
+
+@InProceedings{10.1007/978-3-030-72240-1_65,
+author="Verspoor, Karin
+and {\v{S}}uster, Simon
+and Otmakhova, Yulia
+and Mendis, Shevon
+and Zhai, Zenan
+and Fang, Biaoyan
+and Lau, Jey Han
+and Baldwin, Timothy
+and Jimeno Yepes, Antonio
+and Martinez, David",
+editor="Hiemstra, Djoerd
+and Moens, Marie-Francine
+and Mothe, Josiane
+and Perego, Raffaele
+and Potthast, Martin
+and Sebastiani, Fabrizio",
+title="Brief Description of COVID-SEE: The Scientific Evidence Explorer for COVID-19 Related Research",
+booktitle="Advances in  Information Retrieval",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="559--564",
+abstract="We present COVID-SEE, a system for medical literature discovery based on the concept of information exploration, which builds on several distinct text analysis and natural language processing methods to structure and organise information in publications, and augments search through a visual overview of a collection enabling exploration to identify key articles of interest. We developed this system over COVID-19 literature to help medical professionals and researchers explore the literature evidence, and improve findability of relevant information. COVID-SEE is available at http://covid-see.com.",
+isbn="978-3-030-72240-1"
+}
+
+
+@inproceedings{otmakhova-etal-2020-improved,
+    title = "Improved Topic Representations of Medical Documents to Assist {COVID}-19 Literature Exploration",
+    author = "Otmakhova, Yulia  and
+      Verspoor, Karin  and
+      Baldwin, Timothy  and
+      {\v{S}}uster, Simon",
+    booktitle = "Proceedings of the 1st Workshop on {NLP} for {COVID}-19 (Part 2) at {EMNLP} 2020",
+    month = dec,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.nlpcovid19-2.12",
+    doi = "10.18653/v1/2020.nlpcovid19-2.12",
+    abstract = "Efficient discovery and exploration of biomedical literature has grown in importance in the context of the COVID-19 pandemic, and topic-based methods such as latent Dirichlet allocation (LDA) are a useful tool for this purpose. In this study we compare traditional topic models based on word tokens with topic models based on medical concepts, and propose several ways to improve topic coherence and specificity.",
+}
+
+@inproceedings{otmakhova-shin-2015-really,
+    title = "Do We Really Need Lexical Information? Towards a Top-down Approach to Sentiment Analysis of Product Reviews",
+    author = "Otmakhova, Yulia  and
+      Shin, Hyopil",
+    booktitle = "Proceedings of the 2015 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = may # "{--}" # jun,
+    year = "2015",
+    address = "Denver, Colorado",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N15-1179",
+    doi = "10.3115/v1/N15-1179",
+    pages = "1559--1568",
+}
+
+@inproceedings{kim-etal-2013-applying,
+    title = "Applying Graph-based Keyword Extraction to Document Retrieval",
+    author = "Kim, Youngsam  and
+      Kim, Munhyong  and
+      Cattle, Andrew  and
+      Otmakhova, Julia  and
+      Park, Suzi  and
+      Shin, Hyopil",
+    booktitle = "Proceedings of the Sixth International Joint Conference on Natural Language Processing",
+    month = oct,
+    year = "2013",
+    address = "Nagoya, Japan",
+    publisher = "Asian Federation of Natural Language Processing",
+    url = "https://aclanthology.org/I13-1108",
+    pages = "864--868",
 }

@@ -1,6 +1,16 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"ACL":
+  url: https://2023.acl.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"NAACL":
+  url: https://2023.naacl.org/
+
+
+"EMNLP":
+  url: https://2023.emnlp.org/
+
+"COLING":
+  url: https://coling2022.org/
+
+"AACL":
+  url: https://2022.aacl.org/
