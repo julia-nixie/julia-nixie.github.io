@@ -20,6 +20,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am currently a Graduate Researcher belongs to the [ARC Training Centre in Cognitive Computing for Medical Technologies (ITTC)](https://aimedtech.org.au/) and a PhD student at [The School of Computing and Information Systems - UniMelb](https://cis.unimelb.edu.au/) supervised by [Dr. Jey Han Lau](https://jeyhan.my/), [Prof. Timothy Baldwin](https://people.eng.unimelb.edu.au/tbaldwin/), and [Prof. Karin Verspoor](https://www.rmit.edu.au/contact/staff-contacts/academic-staff/v/verspoor-professor-karin).
+
 My research topic is on biomedical documents summarization (my favorite part-time is roasting the evaluation protocol of modern NLP :cop::rotating_light:). 
 I am especially interested in putting the "L" (language) back to "NLP" by grounding NLP research with sound lingusitics motivation .
 
