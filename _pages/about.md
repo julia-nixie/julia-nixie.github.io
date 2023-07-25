@@ -25,4 +25,4 @@ I am especially interested in putting the "L" (language) back to "NLP" by ground
 
 Previous to that, I obtained my Master in Linguistics at Seoul National University.
 
-I am actively looking for postdoc/research position. Please reach out if you are hiring.
+I am actively looking for postdoc/research position. Please reach out at julia.nixie \[at\] gmail.com if you are hiring.
