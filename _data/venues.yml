@@ -1,16 +1,20 @@
 "ACL":
   url: https://2023.acl.org/
-  color: "#00369f"
+  color: "##3498DB"
 
 "NAACL":
   url: https://2023.naacl.org/
+  color: "#00369f"
 
 
 "EMNLP":
   url: https://2023.emnlp.org/
+  color: "#52BE80"
 
 "COLING":
   url: https://coling2022.org/
+  color: "#F7DC6F"
 
 "AACL":
   url: https://2022.aacl.org/
+  color: "#B03A2E"
